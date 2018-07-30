@@ -14,4 +14,4 @@ optimizer:
   value: adam
 dropout:
   desc: Dropout Rate
-  value: 0.4
+  value: 0.40 # percentage of drop out

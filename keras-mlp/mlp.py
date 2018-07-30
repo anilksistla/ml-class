@@ -12,7 +12,7 @@ import wandb
 run = wandb.init()
 config = run.config
 
-config.hidden_nodes = 100
+config.hidden_nodes = 80 # setting configurtion
 
 # load data
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
